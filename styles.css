@@ -6,12 +6,18 @@ header {
 
 nav ul li {
     display: inline;
-    margin: auto;
+    margin:auto;
+    padding: 20px;
+    text-decoration: none;
 
 }
 
 nav ul li a {
     color: #fff;
+}
+
+nav ul li a:hover {
+    color: #4aaad6;
 }
 
 aside {
@@ -22,8 +28,9 @@ aside {
 
 }
 
+
+
 main {
-    display: flex;
     padding: auto;
     margin: auto;
 
@@ -33,5 +40,8 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
 }
